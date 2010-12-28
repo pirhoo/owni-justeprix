@@ -1,0 +1,141 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+    color: black;
+}
+
+#main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#pinup {
+    position: absolute;
+    top: 82px;
+    left: 32px;
+    z-index: 1;
+}
+
+.buttons {
+    position: absolute;
+    top: 423px;
+    background-repeat: no-repeat;
+    height: 89px;
+    width: 107px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.buttonTrue {
+    left: 268px;
+    background-image: url(images/button_true.png);
+}
+
+.buttonFalse {
+    left: 375px;
+    background-image: url(images/button_false.png);
+}
+
+.buttonTrueOver {
+    background-image: url(images/button_true_over.png);
+}
+
+.buttonFalseOver {
+    background-image: url(images/button_false_over.png);
+}
+
+#questionName {
+    position: absolute;
+    top: 245px;
+    left: 200px;
+    width: 325px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    z-index: 1;
+    display: none;
+}
+
+#questionAmount {
+    position: absolute;
+    top: 280px;
+    left: 200px;
+    width: 325px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    z-index: 1;
+    display: none;
+}
+
+#realAmount {
+    position: absolute;
+    top: 280px;
+    left: 200px;
+    width: 325px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    display: none;
+    z-index: 3;
+}
+
+#questionContent {
+    position: absolute;
+    top: 325px;
+    left: 246px;
+    height: 86px;
+    width: 280px;
+    font-size: 15px;
+    font-weight: bold;
+    z-index: 1;
+    text-align: justify;
+    display: none;
+}
+
+#strike {
+    position: absolute;
+    top: 275px;
+    left: 260px;
+    z-index: 2;
+    width: 0;
+    overflow: hidden;
+}
+
+#lampsWin {
+    position: absolute;
+    top: 8px;
+    left: 512px;
+    z-index: 2;
+    display: none;
+}
+
+#arrow {
+    position: absolute;
+    top: 158px;
+    left: 606px;
+    height: 346px;
+    z-index: 2;
+    overflow: hidden;
+}
+
+#applause {
+    position: absolute;
+    top: 600px;
+    height: 0;
+    overflow: hidden;
+    left: 400px;
+    z-index: 4;
+}
+
+#confettis {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 5;
+}
